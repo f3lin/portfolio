@@ -1,3 +1,21 @@
 {
-  "welcome": "Welcome to the Angular Bulma Translate Example!"
+  "NAVBAR": {
+    "LOGO_TEXT": "Made with a lot of pleasure!",
+    "ROUTES": {
+      "ABOUT_ME": "About Me",
+      "EXPERIENCES": "Experiences",
+      "CONTACTS": "Contacts"
+    },
+    "DROPDOWN": {
+      "LANGUAGE": "Language"
+    }
+  },
+  "HOME": {
+    "GREETING_ONE": "Hi ",
+    "GREETING_TWO": " Team!",
+    "GREETING_THREE": "Welcome to my portfolio.",
+    "GREETING_FORT": "Take your time during your visit.",
+    "GREETING_FIVE": "I hope I have the skills you are looking for,",
+    "GREETING_SIX": "and if not I'm always willing to learn new technologies."
+  }
 }

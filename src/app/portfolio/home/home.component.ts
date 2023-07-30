@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {TranslationService} from "../../services/translation.service";
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   // computerText = 'computerText computerText computerText';
-  computerText = 'computerTextco puterText com puterTe xt comp uter Text compute rText computerText';
+  computerText = 'computer Co';
 
   isActive = true;
 
@@ -20,9 +21,15 @@ export class HomeComponent implements OnInit {
   moveStep = 5; // Pas de déplacement horizontal
   moveDirection = 1; // Direction initiale du mouvement (1 pour droite, -1 pour gauche)
 
+  constructor(private translationService: TranslationService) { }
+
   ngOnInit(): void {
     // Mettre en place le mouvement répété du clavier
     this.moveKeyboard();
+  }
+
+  changeLanguage(language: string) {
+    this.translationService.changeLanguage(language);
   }
 
   onCircleClick() {

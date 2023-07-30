@@ -2,22 +2,24 @@
   <div class="navbar-brand">
     <a class="navbar-item" routerLink="/">
       <img src="/assets/images/alex_for_about_me.png" alt="Logo" class="navbar-item">
-      <span class="navbar-item navbar-text"> Made with a lot of love</span>
+      <span class="navbar-item navbar-text"> {{ 'NAVBAR.LOGO_TEXT' | translate }}</span>
     </a>
 
   </div>
 
   <div class="navbar-menu">
     <div class="navbar-end">
-      <a class="navbar-item" routerLink="/about">About</a>
-      <a class="navbar-item" routerLink="/experience">Experience</a>
-      <a class="navbar-item" routerLink="/contact">Contact</a>
+      <a class="navbar-item" routerLink="/about">{{'NAVBAR.ROUTES.ABOUT_ME' | translate}}</a>
+      <a class="navbar-item" routerLink="/experience">{{'NAVBAR.ROUTES.EXPERIENCES' | translate}}</a>
+      <a class="navbar-item" routerLink="/contact">{{'NAVBAR.ROUTES.CONTACTS' | translate}}</a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">Language</a>
+        <a class="navbar-link">{{ 'NAVBAR.DROPDOWN.LANGUAGE' | translate }}</a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="#" >FR</a>
-          <a class="navbar-item" href="#" >DE</a>
-          <a class="navbar-item" href="#" >EN</a>
+          <div class="buttons">
+            <button class="button is-info is-outlined" (click)="changeLanguage('en')" > EN </button>
+            <button class="button is-info is-outlined" (click)="changeLanguage('de')" > DE </button>
+            <button class="button is-info is-outlined" (click)="changeLanguage('fr')" > FR </button>
+          </div>
         </div>
       </div>
     </div>

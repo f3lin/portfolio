@@ -17,12 +17,16 @@
             (click)="onCircleClick()"></circle>
 
     <!-- Groupe pour contenir le texte -->
-    <foreignObject x="247" y="76" width="501" height="280">
+    <foreignObject x="247" y="60" width="501" height="280">
       <!-- Utilisation d'une div pour intégrer le contenu HTML -->
-      <div class="computer-content" xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; overflow: hidden; padding: 10px;">
+      <div class="computer-content" xmlns="http://www.w3.org/1999/xhtml">
         <!-- Exemple de texte pour l'animation (avec classes d'animation) -->
         <p *ngIf="isActive" >
-          {{computerText}}
+          {{('HOME.GREETING_ONE' | translate) + computerText }}{{('HOME.GREETING_TWO' | translate)}}
+          {{('HOME.GREETING_THREE' | translate)}}
+          {{('HOME.GREETING_FORT' | translate)}}
+          {{('HOME.GREETING_FIVE' | translate)}}
+          {{('HOME.GREETING_SIX' | translate)}}
         </p>
       </div>
     </foreignObject>

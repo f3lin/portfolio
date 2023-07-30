@@ -22,22 +22,50 @@
   height: 110vh;
   overflow: hidden;
 }
+
+.computer-content {
+  width: 90%;
+  height: 900%;
+  overflow: hidden;
+  padding: 10px;
+}
+
 .computer-content p {
   position: absolute;
-  top: 63px;
-  font-family: Arial,system-ui;
-  font-size: 3vw;
+  top:65px;
+  margin: 50px;
+  font-family: "Fira Code", serif;
+  font-size: 1vw;
   line-height: 1.5;
-  margin: 0;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
   .container-image img {
     max-width: 50%;
   }
+
+  .computer-content p {
+    position: absolute;
+    top:60px;
+    font-size: 2vw;
+    line-height: 1.5;
+    margin: 1px;
+  }
+
+}
+
+@media screen and (max-width: 1668px) {
+  .computer-content p {
+    position: absolute;
+    top:10px;
+    font-size: 2vw;
+    line-height: 1.1;
+    margin: 1px;
+  }
+
 }

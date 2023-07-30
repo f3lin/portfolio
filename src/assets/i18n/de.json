@@ -1,0 +1,21 @@
+{
+  "NAVBAR": {
+    "LOGO_TEXT": "Mit viel Lust erstellt!",
+    "ROUTES": {
+      "ABOUT_ME": "Über mich",
+      "EXPERIENCES": "Erlebnisse",
+      "CONTACTS": "Kontakte"
+    },
+    "DROPDOWN": {
+      "LANGUAGE": "Sprache"
+    }
+  },
+  "HOME": {
+    "GREETING_ONE": "Servus ",
+    "GREETING_TWO": " Team!",
+    "GREETING_THREE": "Willkommen in meinem Portfolio.",
+    "GREETING_FORT": "Nehmen Sie sich Zeit bei Ihrem Besuch.",
+    "GREETING_FIVE": "Ich hoffe, ich habe die Fähigkeiten, die Sie suchen",
+    "GREETING_SIX": "und wenn nicht, bin ich immer bereit, neue Technologien zu lernen."
+  }
+}

@@ -31,9 +31,13 @@
 }
 
 /* Ajuster la largeur du dropdown pour qu'elle soit proportionnelle au contenu */
-.navbar-dropdown .navbar-item {
-  padding: 0.5em 0.8em;
-  min-width: fit-content;
+.buttons button {
+  margin-right: 6px;
+  margin-left: 6px;
+  padding: 0.5em;
+  /*min-width: fit-content;*/
+  /*margin-right: 0.8rem;*/
+  /*margin-left: 0.2em;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -43,21 +47,15 @@
   }
 }
 
-/* Style pour le bouton de téléchargement */
-.download-button-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
 
-.download-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
+/*.download-button {*/
+/*  padding: 10px 20px;*/
+/*  background-color: #007bff;*/
+/*  color: #fff;*/
+/*  text-decoration: none;*/
+/*  border-radius: 5px;*/
+/*}*/
 
-.download-button:hover {
-  background-color: #0056b3;
-}
+/*.download-button:hover {*/
+/*  background-color: #0056b3;*/
+/*}*/
