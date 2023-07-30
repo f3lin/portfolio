@@ -7,7 +7,12 @@ import {TranslationService} from "./services/translation.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfolio';
+
+  sidebarVisible = false;
+
+  toggleSidebar() {
+    this.sidebarVisible = !this.sidebarVisible;
+  }
 
   constructor(private translationService: TranslationService) {
   }

@@ -35,7 +35,7 @@ describe('AppComponent', () => {
   it('should display links', () => {
     const compiled = fixture.nativeElement;
     const links = compiled.querySelectorAll('.navbar-item');
-    expect(links.length).toBe(7); // Assuming you have 3 links in the navbar
+    expect(links.length).toBe(10); // Assuming you have 3 links in the navbar
   });
 
   it('should call changeLanguage method on clicking language links', () => {

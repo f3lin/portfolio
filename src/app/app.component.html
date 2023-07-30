@@ -24,6 +24,31 @@
       </div>
     </div>
   </div>
+
+  <!-- Sidebar - Hidden by default for larger screens -->
+  <div class="sidebar" [ngClass]="{ 'show-sidebar': sidebarVisible }">
+    <!-- Close button ("x") - Displayed only when the sidebar is open -->
+    <button class="button close-button" *ngIf="sidebarVisible" (click)="toggleSidebar()">x</button>
+
+    <!-- Sidebar content - Add your navigation links and language buttons here -->
+    <a class="navbar-item" routerLink="/about">{{ 'NAVBAR.ROUTES.ABOUT_ME' | translate }}</a>
+    <a class="navbar-item" routerLink="/experience">{{ 'NAVBAR.ROUTES.EXPERIENCES' | translate }}</a>
+    <a class="navbar-item" routerLink="/contact">{{ 'NAVBAR.ROUTES.CONTACTS' | translate }}</a>
+
+    <!-- Language buttons in the sidebar -->
+    <div class="buttons">
+      <button class="button is-info is-outlined" (click)="changeLanguage('en')">EN</button>
+      <button class="button is-info is-outlined" (click)="changeLanguage('de')">DE</button>
+      <button class="button is-info is-outlined" (click)="changeLanguage('fr')">FR</button>
+    </div>
+  </div>
+
+  <!-- Hamburger icon to toggle the sidebar - Shown on smaller screens -->
+  <button role="button" class="navbar-burger button" *ngIf="!sidebarVisible" aria-label="menu" aria-expanded="false" (click)="toggleSidebar()">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </button>
 </nav>
 
 <router-outlet></router-outlet>

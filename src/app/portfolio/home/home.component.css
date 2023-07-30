@@ -59,13 +59,34 @@
 
 }
 
-@media screen and (max-width: 1668px) {
+/*1668*/
+@media screen and (max-width: 1040px) {
   .computer-content p {
     position: absolute;
-    top:10px;
+    top:40px;
     font-size: 2vw;
-    line-height: 1.1;
-    margin: 1px;
+    line-height: 1.5;
+    margin: 10px;
   }
 
+}
+
+/*1668*/
+@media screen and (max-width: 768px) {
+
+  .container-image img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .svg-container {
+    height: 35vh;
+  }
+
+  .computer-content p {
+    position: absolute;
+    top:20px;
+    font-size: 5vw;
+    line-height: 1.5;
+    margin: 50px;
+  }
 }
