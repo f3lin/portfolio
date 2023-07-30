@@ -1,13 +1,27 @@
-<div class="content" role="main">
-  <span>{{ title }} app is running!</span>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/">
+      <img src="/assets/images/alex_for_about_me.png" alt="Logo" class="navbar-item">
+      <span class="navbar-item navbar-text"> Made with a lot of love</span>
+    </a>
 
-  <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632"
-       viewBox="0 0 516.119 1083.632">
-    <title>Rocket Ship Smoke</title>
-    <path id="Path_40" data-name="Path 40"
-          d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z"
-          transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
-  </svg>
-</div>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" routerLink="/about">About</a>
+      <a class="navbar-item" routerLink="/experience">Experience</a>
+      <a class="navbar-item" routerLink="/contact">Contact</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Language</a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="#" >FR</a>
+          <a class="navbar-item" href="#" >DE</a>
+          <a class="navbar-item" href="#" >EN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 
 <router-outlet></router-outlet>

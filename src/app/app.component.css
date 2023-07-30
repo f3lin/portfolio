@@ -1,0 +1,63 @@
+/*:host {*/
+/*  display: block;*/
+/*  text-align: center;*/
+/*}*/
+
+.navbar-item img{
+  height: 40px;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.navbar-text {
+  position: relative;
+  top: 23px;
+  left: -114px;
+  font-size: 18px;
+  color: #afaea9;
+  font-family: Courier, monospace
+}
+
+/* Ajuster la largeur du dropdown pour qu'elle soit proportionnelle au contenu */
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+  display: block;
+  white-space: nowrap;
+}
+
+.navbar-dropdown .navbar-item {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Ajuster la largeur du dropdown pour qu'elle soit proportionnelle au contenu */
+.navbar-dropdown .navbar-item {
+  padding: 0.5em 0.8em;
+  min-width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-item img {
+    max-width: 70%;
+    flex-direction: column;
+  }
+}
+
+/* Style pour le bouton de téléchargement */
+.download-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
