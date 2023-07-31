@@ -1,4 +1,4 @@
-export interface StarOn{
+export interface StarsOptions {
   one: boolean;
   two: boolean;
   three: boolean;

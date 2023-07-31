@@ -4,7 +4,7 @@ export interface Corpus {
   level: number;
 }
 
-export interface Data {
+export interface Competences {
   id: number;
   data: {
     language: Corpus[];
@@ -18,7 +18,7 @@ export interface Data {
     tools: Corpus[];
   };
 }
-export const MyData: Data = {
+export const MyData: Competences = {
   id: 1,
   data: {
     language: [

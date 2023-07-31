@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {StarOn} from "../../../../data/star-on";
+import {StarsOptions} from "../../../../data/stars-options.data";
 
 @Component({
   selector: 'app-stars-svg',
@@ -8,7 +8,7 @@ import {StarOn} from "../../../../data/star-on";
 })
 export class StarsSvgComponent {
 
-  @Input() starLitOrSwitchedOff: StarOn = {
+  @Input() starLitOrSwitchedOff: StarsOptions = {
       one: true,
       two: true,
       three: true,

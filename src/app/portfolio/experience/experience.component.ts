@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslationService} from "../../services/translation.service";
-import {Data, MyData} from "../../data/db";
+import {Competences, MyData} from "../../data/competences.data";
 
 @Component({
   selector: 'app-experience',
@@ -9,7 +9,7 @@ import {Data, MyData} from "../../data/db";
 })
 export class ExperienceComponent implements OnInit{
 
-  Data : Data | undefined;
+  competenceData : Competences | undefined;
 
   isExperiencesStatic = true;
   isCompetencesStatic = false;
@@ -19,7 +19,7 @@ export class ExperienceComponent implements OnInit{
   }
 
   ngOnInit(){
-    this.Data = MyData;
+    this.competenceData = MyData;
   }
 
   changeViewToExperiences() {

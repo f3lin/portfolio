@@ -1,99 +1,98 @@
 <div class="columns is-mobile is-centered">
   <div class="tabs is-centered">
     <ul>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('language')" >Programming language</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('framework')" >Framework</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('cloud')" >Cloud Solution</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('devops')" >DevOps & CI/CD</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('database')" >Database</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('testing')" >Testing</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('os')" >Operating system</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('ide')" >IDEs</button>
-      <button class="button is-info is-inverted has-text-dark m-2" (click)="setData('tools')" >Tools</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('language')" >Programming language</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('framework')" >Framework</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('cloud')" >Cloud Solution</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('devops')" >DevOps & CI/CD</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('database')" >Database</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('testing')" >Testing</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('os')" >Operating system</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('ide')" >IDEs</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('tools')" >Tools</button>
     </ul>
   </div>
 </div>
 
 <div class="columns">
   <div class="column is-half is-offset-one-quarter is-narrow">
-
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='language'">
-      <tbody *ngFor="let item of Data?.data?.language; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.language; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end is-max-desktop">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='framework'">
-      <tbody *ngFor="let item of Data?.data?.framework; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.framework; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='cloud'">
-      <tbody *ngFor="let item of Data?.data?.cloud; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.cloud; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='devops'">
-      <tbody *ngFor="let item of Data?.data?.devops; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.devops; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='database'">
-      <tbody *ngFor="let item of Data?.data?.database; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.database; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='testing'">
-      <tbody *ngFor="let item of Data?.data?.testing; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.testing; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='os'">
-      <tbody *ngFor="let item of Data?.data?.os; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.os; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='ide'">
-      <tbody *ngFor="let item of Data?.data?.ide; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.ide; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
 
     <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='tools'">
-      <tbody *ngFor="let item of Data?.data?.tools; let i = index">
+      <tbody *ngFor="let item of competenceData_?.data?.tools; let i = index">
       <td>{{ item.name }}</td>
       <td class="is-justify-content-flex-end">
-        <app-stars-svg [starLitOrSwitchedOff]="setStartOnOrOff(item.level)"></app-stars-svg>
+        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
       </tbody>
     </table>
