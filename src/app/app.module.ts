@@ -9,8 +9,11 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslationService} from "./services/translation.service";
 import {AboutComponent} from './portfolio/about/about.component';
-import {ExperienceComponent} from './portfolio/experience/experience.component';
 import {ContactComponent} from './portfolio/contact/contact.component';
+import {CompetencesComponent} from './portfolio/experience/competences/competences.component';
+import {StarsSvgComponent} from './portfolio/experience/competences/stars-svg/stars-svg.component';
+import {ExperienceComponent} from "./portfolio/experience/experience.component";
+import {EnterprisesComponent} from "./portfolio/experience/enterprises/enterprises.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -23,7 +26,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     AboutComponent,
     ExperienceComponent,
-    ContactComponent
+    EnterprisesComponent,
+    ContactComponent,
+    CompetencesComponent,
+    StarsSvgComponent,
   ],
   imports: [
     BrowserModule,

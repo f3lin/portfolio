@@ -1,17 +1,16 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {ExperienceComponent} from './experience.component';
+import {CompetencesComponent} from './competences.component';
 import {TranslateModule, TranslateService} from "@ngx-translate/core";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
-import {EnterprisesComponent} from "./enterprises/enterprises.component";
 
-describe('ExperienceComponent', () => {
-  let component: ExperienceComponent;
-  let fixture: ComponentFixture<ExperienceComponent>;
+describe('CompetencesComponent', () => {
+  let component: CompetencesComponent;
+  let fixture: ComponentFixture<CompetencesComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ExperienceComponent, EnterprisesComponent],
+      declarations: [CompetencesComponent],
       imports: [
         TranslateModule.forRoot(),
         HttpClientTestingModule,
@@ -19,7 +18,7 @@ describe('ExperienceComponent', () => {
 
       providers: [TranslateService]
     });
-    fixture = TestBed.createComponent(ExperienceComponent);
+    fixture = TestBed.createComponent(CompetencesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -19,6 +19,8 @@
     "GREETING_SIX": "und wenn nicht, bin ich immer bereit, neue Technologien zu lernen."
   },
   "EXPERIENCE": {
+    "ENTERPRISES": "Unternehmen",
+    "COMPETENCES": "Kompetenzen",
     "ENTERPRISE": {
       "ENTERPRISE_ONE": "Webinstore AG",
       "ENTERPRISE_TWO": "Hiqs GmbH",

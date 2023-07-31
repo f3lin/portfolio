@@ -1,0 +1,51 @@
+<div class="is-flex is-justify-content-flex-end">
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon
+      points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.one ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+    />
+  </svg>
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon
+      points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.two ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+    />
+  </svg>
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon
+      points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.three ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+    />
+  </svg>
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <polygon
+    points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.four ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+  />
+</svg>
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon
+      points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.five ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+    />
+  </svg>
+  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon
+      points="12,1.7 14.7,8.5 22,9 16,14 17.3,21 12,17 6.7,21 8,14 2,9 9.3,8.5"
+      [attr.fill]="starLitOrSwitchedOff.six ? 'gold': 'white'"
+      [attr.stroke]="'black'"
+      [attr.stroke-width]="2"
+    />
+  </svg>
+</div>
+

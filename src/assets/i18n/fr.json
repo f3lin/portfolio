@@ -19,6 +19,8 @@
     "GREETING_SIX": "et si ce n'est pas le cas, je suis toujours prêt à apprendre de nouvelles technologies."
   },
   "EXPERIENCE": {
+    "ENTERPRISES": "Entreprises",
+    "COMPETENCES": "Compétences",
     "ENTERPRISE": {
       "WEBINSTORE": "Webinstore AG",
       "HIQS": "Hiqs GmbH",
@@ -85,7 +87,7 @@
         "DURATION_": "Periode: ",
         "DURATION": "01.04.2022 - 31.08.2022",
         "ABOUT": {
-          "CONTENT_ONE": "En tant qu'étudiant travaillant chez Hiqs, j'ai non seulement pu y rédiger ma",
+          "CONTENT_ONE": "En tant qu'étudiant travaillant chez Hiqs, j'ai non seulement pu y rédiger ma ",
           "CONTENT_TWO": "thèse de licence",
           "CONTENT_THREE": "mais j'ai également beaucoup appris.",
           "CONTENT_FOUR": "Nous avions des tâches différentes, mais il s'agissait toujours davantage de ",

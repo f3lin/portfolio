@@ -60,10 +60,10 @@
 }
 
 /*1668*/
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1340px) {
   .computer-content p {
     position: absolute;
-    top:40px;
+    top:-5px;
     font-size: 2vw;
     line-height: 1.5;
     margin: 10px;
@@ -81,7 +81,9 @@
   .svg-container {
     height: 35vh;
   }
-
+  /*.computer-content{*/
+  /*  position: absolute;*/
+  /*}*/
   .computer-content p {
     position: absolute;
     top:20px;
