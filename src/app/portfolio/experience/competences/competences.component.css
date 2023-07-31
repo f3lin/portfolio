@@ -1,6 +1,9 @@
 .columns {
   font-family: "Code", "Source Code Pro", monospace;
 }
+.button {
+  font-family: "Code", "Source Code Pro", monospace;
+}
 
 @media screen and (max-width: 768px) {
 

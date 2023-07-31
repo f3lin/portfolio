@@ -30,30 +30,35 @@
   padding: 10px;
 }
 
+/*.computer-content p {*/
+/*  position: absolute;*/
+/*  top: 65px;*/
+/*  margin: 50px;*/
+/*  font-family: "Code", "Source Code Pro", monospace;*/
+/*  font-size: 1vw;*/
+/*  line-height: 1.5;*/
+/*  display: -webkit-box;*/
+/*  -webkit-line-clamp: 7;*/
+/*  -webkit-box-orient: vertical;*/
+/*  overflow: hidden;*/
+/*  text-overflow: ellipsis;*/
+/*}*/
+
 .computer-content p {
   position: absolute;
-  top: 65px;
+  top: 75px;
   margin: 50px;
-  font-family: "Code", "Source Code Pro", monospace;
-  font-size: 1vw;
-  line-height: 1.5;
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
-
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1100px) {
   .container-image img {
     max-width: 50%;
   }
 
   .computer-content p {
     position: absolute;
-    top: 60px;
-    font-size: 2vw;
-    line-height: 1.5;
+    top: 80px;
+    font-size: 1vw;
+    line-height: 1px;
     margin: 1px;
   }
 
@@ -62,9 +67,9 @@
 @media screen and (max-width: 1340px) {
   .computer-content p {
     position: absolute;
-    top: -5px;
-    font-size: 2vw;
-    line-height: 1.5;
+    top: 90px;
+    font-size: 1vw;
+    line-height: 1.9;
     margin: 10px;
   }
 
