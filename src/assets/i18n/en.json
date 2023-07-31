@@ -14,9 +14,157 @@
     "GREETING_ONE": "Hi ",
     "GREETING_TWO": " Team!",
     "GREETING_THREE": "Welcome to my portfolio.",
-    "GREETING_FORT": "Take your time during your visit.",
+    "GREETING_FOUR": "Take your time during your visit.",
     "GREETING_FIVE": "I hope I have the skills you are looking for,",
     "GREETING_SIX": "and if not I'm always willing to learn new technologies."
+  },
+  "EXPERIENCE": {
+    "ENTERPRISE": {
+      "WEBINSTORE": "Webinstore AG",
+      "HIQS": "Hiqs GmbH",
+      "ADESSO": "Adesso SE",
+      "HTW": "HTW (Hochschule für Technik und Wirtschaft) Berlin",
+      "PLACE": "Berlin"
+    },
+    "TITLE_B": {
+      "STUDENT": "student",
+      "STUDENT_EMPLOYEE_B": "student employee",
+      "BACHELOR_DEGREE_B": "bachelor's degree (Bachelor of Engigneering)",
+      "SOFTWARE_DEVELOPER_B": "junior software developer",
+      "BRANCH": "Computer Engineering"
+    },
+    "HEADERS": {
+      "HEADER_ZERO": "First of foremost",
+      "HEADER_ONE": "So far, I've completed my apprenticeship",
+      "HEADER_TWO_B": "in companies, at university or through personal research.",
+      "HEADER_THREE": "  During my studies in ",
+      "HEADER_FOUR": " at ",
+      "HEADER_FIVE": ", I worked as a ",
+      "HEADER_SIX": "at  ",
+      "HEADER_SEVEN": " and ",
+      "HEADER_EIGHT": ". After completing my ",
+      "HEADER_NINE_B": "at ",
+      "HEADER_TEN": ", I joined ",
+      "HEADER_ELEVEN": "'s",
+      "HEADER_TWELVE": " Trainnee programme",
+      "HEADER_THIRTEEN": ", where I worked as a",
+      "HEADER_FOURTEEN": ". ",
+      "HEADER_FIFTEEN": "Hier sind einige Details über meine Arbeit bei diesen Institutionen."
+    },
+    "WORK": {
+      "ADESSO": {
+        "POSITION": "Position: ",
+        "DURATION_": "Duration: ",
+        "DURATION": "2022-01-09 - until now",
+        "TASKS": {
+          "TASKS_ONE": "Analyse the ticket's problem using the code already available",
+          "TASKS_TWO": "Implement the new feature(s), ensuring that they do not alter the functionality already present on the platform. This must comply with the ticket acceptance criteria.",
+          "TASKS_THREE": "Make Ticket(s) QA",
+          "TASKS_FOUR": "Integration and Unit Test with: "
+        },
+        "ABOUT": {
+          "CONTENT_ONE": "The application is a management application used in the",
+          "CONTENT_TWO_B": "music sector",
+          "CONTENT_FOUR": "It is essentially based on",
+          "CONTENT_FIVE": "but a number of other technologies are also involved, including",
+          "CONTENT_SIX": "The tasks here are carried out in a Scrum culture and the work is Agile. They are generally handled in pairs or singles. Once the implementation of a task is complete I (or we if the task was handled in pair) present the solution to the team representing the customer and if the functionality is approved the ticket is considered complete and I can take another ticket and work on it. It should be noted that each task has a processing time which is allocated to it by all the developers in the team I'm a member of."
+        },
+        "TAGS": {
+          "COMMUNICATION":"Customer communication",
+          "AGILE": "Agile",
+          "SCRUM": "SCRUM",
+          "TEAM": "Team Work",
+          "MEETING": "Meeting",
+          "PAIR_PROGRAMMING": "Pair programming",
+          "DAILY": "Daily",
+          "KANBAN": "Kanban-Board",
+          "PART_TIME": "part-time work"
+        }
+      },
+      "HIQS": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2022-04-01 - 2022-08-31",
+        "ABOUT": {
+          "CONTENT_ONE": "As a working student at Hiqs, I was not only able to do my ",
+          "CONTENT_TWO": "bachelor's degree",
+          "CONTENT_THREE": "work there, but also learn a lot.",
+          "CONTENT_FOUR": "We had different tasks but it was always more about",
+          "CONTENT_FIVE": "programming and documenting",
+          "CONTENT_SIX": " I always had to document my developed solution using ",
+          "CONTENT_SEVEN": "and give feedback to my team leader",
+          "CONTENT_EIGHT": "I was involved in two projects at the time. One was more ",
+          "CONTENT_NINE": "based and the other was an Angular application",
+          "CONTENT_TEN": "The blockchain project was a consequence of my bachelor thesis where I developed a solution for checking the qualitative properties of food.",
+          "CONTENT_ELEVEN": "The Angular Project was based on Angular and Nodejs. With the help of WebSocket we created an Api that listened to events in a warehouse and these events could be tracked with the Angular App to get an overview of the amount of goods in the warehouse. This way you could know if you should order new ones or if there are any left, etc."
+        }
+      },
+      "HTW": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2017-04-01 - 2022-03-30",
+        "DEGREE_PROGRAMME": "Programme: ",
+        "ABOUT": {
+          "CONTENT_ONE": "As a computer engineering student, the key points of my studies were :",
+          "CONTENT_TWO": "Computer science, computer technology hardware, networks, computer-controlled devices and systems, software and hardware systems, embedded systems ",
+          "CONTENT_THREE": "I learned to program microcontrollers like the",
+          "CONTENT_FOUR": "STM32 and Raspberry Pi.",
+          "CONTENT_FIVE": "We constantly had group projects like creating a music database with",
+          "CONTENT_SIX": " Mysql Workbench",
+          "CONTENT_SEVEN": ", developing a platform to inform traffic users about road works and using a Lidar sensor with a Rasberry Pi to detect objects. A special focus was on programming languages such as ",
+          "CONTENT_EIGHT":"c++, c and java."
+        }
+      },
+      "WEBINSTORE": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2019-04-01 - 2021-12-31",
+        "ABOUT": {
+          "CONTENT_ONE": "IT administration, install network and operating system",
+          "CONTENT_TWO": "Customisation and repair of software and hardware",
+          "CONTENT_THREE": "preparation of all types of IT equipment for users according to business needs",
+          "CONTENT_FOUR": "Preparing all types of hardware for refurbishing."
+        }
+      }
+    },
+    "TECHNOLOGIES": {
+      "JAVA": {
+        "SPRING": "Spring Boot",
+        "QUARKUS": "Quarkus"
+      },
+      "ANGULAR": "Angular",
+      "SAP": "SAP",
+      "CLOUD": {
+        "GCLOUD": "Google Cloud"
+      },
+      "DB": {
+        "MYSQL": "Mysqsl",
+        "POSTGRES": "Postgres SQL"
+      },
+      "TEST": {
+        "TYPES": {
+          "UNIT_TEST": "Uni Test",
+          "INTEGRATION_TEST": "Uni Test"
+        },
+        "CYPRESS": "Cypress",
+        "JUNIT": "JUnit",
+        "JEST": "Jest",
+        "KARMA": "KARMA"
+      },
+      "DOCKER": "Docker",
+      "JIRA": "Jira",
+      "CONFLUENCE": "CONFLUENCE",
+      "KANBAN": "Kanban-Board"
+    },
+    "SECTOR": {
+      "BACKEND": "Backend",
+      "FRONTEND": "Frontend",
+      "FULLSTACK": "Fullstack"
+    }
+  },
+  "UTILS": {
+    "AND": "and",
+    "OR": "or"
   },
   "COMING_SOON": "Coming soon ..."
 }

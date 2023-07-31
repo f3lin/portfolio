@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Code", "Source Code Pro", monospace;
 }
 
 /* Custom styles for the sidebar - Hidden by default for larger screens */
@@ -51,7 +52,7 @@
   left: -114px;
   font-size: 18px;
   color: #afaea9;
-  font-family: Courier, monospace
+  font-family: "Code", "Source Code Pro", monospace;
 }
 
 /* Ajuster la largeur du dropdown pour qu'elle soit proportionnelle au contenu */

@@ -14,9 +14,156 @@
     "GREETING_ONE": "Bonjour l'équipe ",
     "GREETING_TWO": "!",
     "GREETING_THREE": "Bienvenue dans mon portfolio.",
-    "GREETING_FORT": "Prenez votre temps lors de votre visite.",
+    "GREETING_FOUR": "Prenez votre temps lors de votre visite.",
     "GREETING_FIVE": "J'espère avoir les compétences que vous recherchez,",
     "GREETING_SIX": "et si ce n'est pas le cas, je suis toujours prêt à apprendre de nouvelles technologies."
+  },
+  "EXPERIENCE": {
+    "ENTERPRISE": {
+      "WEBINSTORE": "Webinstore AG",
+      "HIQS": "Hiqs GmbH",
+      "ADESSO": "Adesso SE",
+      "HTW": "HTW (Hochschule für Technik und Wirtschaft) Berlin",
+      "PLACE": "Berlin"
+    },
+    "TITLE_B": {
+      "STUDENT": "étudiant",
+      "STUDENT_EMPLOYEE": "étudiant salarié",
+      "BACHELOR_DEGREE_B": "licence (Bachelor of Engigneering) ",
+      "SOFTWARE_DEVELOPER_B": "développeur de logiciels junior",
+      "BRANCH": "ingénierie informatique"
+    },
+    "HEADERS": {
+      "HEADER_ZERO": "Avant tout",
+      "HEADER_ONE": "Jusqu'à présent, j'ai suivi mon apprentissage dans ",
+      "HEADER_TWO_B": "des entreprises, à l'université ou par le biais de recherches personnelles.",
+      "HEADER_THREE": " Pendant mes études d' ",
+      "HEADER_FOUR": " à la ",
+      "HEADER_FIVE": "j'ai travaillé comme ",
+      "HEADER_SIX": "chez  ",
+      "HEADER_SEVEN": " et ",
+      "HEADER_EIGHT": ". Après avoir obtenu ma ",
+      "HEADER_NINE_B": "à la ",
+      "HEADER_TEN": ", j'ai rejoint le ",
+      "HEADER_ELEVEN": "programme Trainnee",
+      "HEADER_TWELVE": "de",
+      "HEADER_THIRTEEN": " où j'ai travaillé comme ",
+      "HEADER_FOURTEEN": ".",
+      "HEADER_FIFTEEN": "Voici quelques détails sur mon travail dans ces institutions."
+    },
+    "WORK": {
+      "ADESSO": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "01.09.2022 - jusqu'à présent",
+        "TASKS": {
+          "TASKS_ONE": "Analyser le problème du ticket en utilisant le code déjà disponible",
+          "TASKS_TWO": "Implémenter la ou les nouvelles fonctionnalités, en veillant à ce qu'elles ne modifient pas les fonctionnalités déjà présentes sur la plateforme. Cela doit être conforme aux critères d'acceptation du ticket.",
+          "TASKS_THREE": "Faire le QA du(des) ticket(s) "
+        },
+        "ABOUT": {
+          "CONTENT_ONE": "L'application est une application de gestion utilisée dans le",
+          "CONTENT_TWO_B": "music sector",
+          "CONTENT_FOUR": "secteur de la musique",
+          "CONTENT_FIVE": "mais un certain nombre d'autres technologies sont également impliquées, notamment",
+          "CONTENT_SIX": "Les tâches sont réalisées dans une culture Scrum et le travail est Agile. Elles sont généralement traitées en binôme ou en solo. Une fois la mise en œuvre d'une tâche terminée, je (ou nous si la tâche a été traitée en binôme) présente la solution à l'équipe représentant le client et si la fonctionnalité est approuvée, le ticket est considéré comme complet et je peux prendre un autre ticket et travailler dessus. Il convient de noter que chaque tâche a un temps de traitement qui lui est attribué par tous les développeurs de l'équipe dans laquelle je suis membre."
+        },
+        "TAGS": {
+          "COMMUNICATION":"Communication avec les clients",
+          "AGILE": "Agile",
+          "SCRUM": "SCRUM",
+          "TEAM": "Travail d'équipe",
+          "MEETING": "Meeting",
+          "PAIR_PROGRAMMING": "Programmation en binôme",
+          "DAILY": "Quotidiennement",
+          "KANBAN": "Kanban-Board",
+          "PART_TIME": "travail à temps partiel"
+        }
+      },
+      "HIQS": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "01.04.2022 - 31.08.2022",
+        "ABOUT": {
+          "CONTENT_ONE": "En tant qu'étudiant travaillant chez Hiqs, j'ai non seulement pu y rédiger ma",
+          "CONTENT_TWO": "thèse de licence",
+          "CONTENT_THREE": "mais j'ai également beaucoup appris.",
+          "CONTENT_FOUR": "Nous avions des tâches différentes, mais il s'agissait toujours davantage de ",
+          "CONTENT_FIVE": "programmation et de documentation",
+          "CONTENT_SIX": "Je devais toujours documenter ma solution développée en utilisant",
+          "CONTENT_SEVEN": "et donner un retour d'information à mon chef d'équipe.",
+          "CONTENT_EIGHT": "J'étais impliqué dans deux projets à l'époque. L'un était plus axé sur la ",
+          "CONTENT_NINE": "et l'autre était une application Angular",
+          "CONTENT_TEN": "Le projet de blockchain est une conséquence de mon mémoire de licence dans lequel j'ai développé une solution pour vérifier les propriétés qualitatives des aliments.",
+          "CONTENT_ELEVEN": "Le projet Angular était basé sur Angular et Nodejs. Nous avons créé une api connecté un entrepôt via la technologie WebSocket qui revoyait des events à l'appliation Abgular. Ces events pouvaient être suivis par l'app afin d'avoir un aperçu de la quantité de marchandises dans l'entrepôt. De cette manière, on pourrait savoir s'il faut commander de nouvelles marchandises ou s'il en reste, etc."
+        }
+      },
+      "HTW": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2017-04-01 - 2022-03-30",
+        "DEGREE_PROGRAMME": "Filière d'étude: ",
+        "ABOUT": {
+          "CONTENT_ONE": "En tant qu'étudiant en génie informatique, les points focales de mes études etaient :",
+          "CONTENT_TWO": "Informatique, matériel informatique, réseaux, appareils et installations commandés par ordinateur, Systèmes logiciels et matériels, systèmes embarqués",
+          "CONTENT_THREE": "J'ai appris à programmer des microcontrôleurs comme ",
+          "CONTENT_FOUR": "le STM32 et le Raspberry Pi.",
+          "CONTENT_FIVE": "Nous avions constamment des projets de groupe comme la création d'une base de données musicale avec ",
+          "CONTENT_SIX": " Mysql Workbench",
+          "CONTENT_SEVEN": ", le développement d'une plateforme pour informer les usagers de la route sur les travaux routiers et l'utilisation d'un capteur Lidar avec un Rasberry Pi pour détecter des objets. Un accent particulier a été mis sur les langages de programmation tels que",
+          "CONTENT_EIGHT":"c++, c et java."
+        }
+      },
+      "WEBINSTORE": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "01.04.2019 - 31.12.2021",
+        "ABOUT": {
+          "CONTENT_ONE": "Gestion informatique, installer le réseau et le système d'exploitation",
+          "CONTENT_TWO": "la personnalisation et la réparation des Logiciels et matériels informatiques ",
+          "CONTENT_THREE": "Préparation de tous les types de matériel pour la remise à neuf, la révision et la réparation.",
+          "CONTENT_FOUR": "préparation de tous les types de matériel informatique pour les utilisateurs en fonction des besoins des entreprises"
+        }
+      }
+    },
+    "TECHNOLOGIES": {
+      "JAVA": {
+        "SPRING": "Spring Boot",
+        "QUARKUS": "Quarkus"
+      },
+      "ANGULAR": "Angular",
+      "SAP": "SAP",
+      "CLOUD": {
+        "GCLOUD": "Google Cloud"
+      },
+      "DB": {
+        "MYSQL": "Mysqsl",
+        "POSTGRES": "Postgres SQL"
+      },
+      "TEST": {
+        "TYPES": {
+          "UNIT_TEST": "Uni Test",
+          "INTEGRATION_TEST": "Uni Test"
+        },
+        "CYPRESS": "Cypress",
+        "JUNIT": "JUNIT",
+        "JEST": "Jest",
+        "KARMA": "KARMA"
+      },
+      "DOCKER": "Docker",
+      "JIRA": "Jira",
+      "CONFLUENCE": "CONFLUENCE",
+      "KANBAN": "Kanban-Board "
+    },
+    "SECTOR": {
+      "BACKEND": "Backend",
+      "FRONTEND": "Frontend",
+      "FULLSTACK": "Fullstack"
+    }
+  },
+  "UTILS": {
+    "AND": "et",
+    "OR": "ou"
   },
   "COMING_SOON": "Prochainement  ..."
 }

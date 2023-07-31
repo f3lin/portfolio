@@ -13,10 +13,158 @@
   "HOME": {
     "GREETING_ONE": "Servus ",
     "GREETING_TWO": " Team!",
-    "GREETING_THREE": "Willkommen in meinem Portfolio.",
-    "GREETING_FORT": "Nehmen Sie sich Zeit bei Ihrem Besuch.",
+    "GREETING_THREE": "Willkommen auf  meinem Portfolio.",
+    "GREETING_FOUR": "Nehmen Sie sich Zeit bei Ihrem Besuch.",
     "GREETING_FIVE": "Ich hoffe, ich habe die Fähigkeiten, die Sie suchen",
     "GREETING_SIX": "und wenn nicht, bin ich immer bereit, neue Technologien zu lernen."
   },
+  "EXPERIENCE": {
+    "ENTERPRISE": {
+      "ENTERPRISE_ONE": "Webinstore AG",
+      "ENTERPRISE_TWO": "Hiqs GmbH",
+      "ENTERPRISE_THREE": "Adesso SE",
+      "ENTERPRISE_FOUR": "HTW (Hochschule für Technik und Wirtschaft) Berlin",
+      "PLACE": "Berlin"
+    },
+    "TITLE_B": {
+      "STUDENT": "Student",
+      "STUDENT_EMPLOYEE_B": "Werkstudent",
+      "BACHELOR_DEGREE_B": "Bachelor-Abschluss (Bachelor of Engigneering) ",
+      "SOFTWARE_DEVELOPER_B": "Junior-Softwareentwickler",
+      "BRANCH": "Computer Engineering"
+    },
+    "HEADERS": {
+      "HEADER_ZERO": "Zuallererst",
+      "HEADER_ONE": "Bisher habe ich meine Kenntnisse ",
+      "HEADER_TWO_B": "in Unternehmen, an der Universität oder durch persönliche Recherchen",
+      "HEADER_THREE": " erworben. Während meines Studiums der ",
+      "HEADER_FOUR": " an der ",
+      "HEADER_FIVE": "habe ich als ",
+      "HEADER_SIX": "bei ",
+      "HEADER_SEVEN": " und ",
+      "HEADER_EIGHT": "gearbeitet. Nach meinem ",
+      "HEADER_NINE_B": "an der ",
+      "HEADER_TEN": ", nahm ich am ",
+      "HEADER_ELEVEN": "Trainnee-Programm ",
+      "HEADER_TWELVE": "von ",
+      "HEADER_THIRTEEN": " teil, wo ich als ",
+      "HEADER_FOURTEEN": " arbeitete. ",
+      "HEADER_FIFTEEN": "Hier sind einige Details über meine Arbeit bei diesen Institutionen."
+    },
+    "WORK": {
+      "ADESSO": {
+        "POSITION": "Stelle: ",
+        "DURATION_": "Laufzeit: ",
+        "DURATION": "01.09.2022 - bis jetzt",
+        "TASKS": {
+          "TASKS_ONE": "Analyse the ticket's problem using the code already available",
+          "TASKS_TWO": "Implement the new feature(s), ensuring that they do not alter the functionality already present on the platform. This must comply with the ticket acceptance criteria.",
+          "TASKS_THREE": "Make Ticket(s) QA"
+        },
+        "ABOUT": {
+          "CONTENT_ONE": "Bei der Anwendung handelt es sich um eine Verwaltungsanwendung für den",
+          "CONTENT_TWO_B": "Musiksektor",
+          "CONTENT_FOUR": "Im Wesentlichen basiert sie auf",
+          "CONTENT_FIVE": "aber auch eine Reihe anderer Technologien sind beteiligt, darunter",
+          "CONTENT_SIX": "Die Aufgaben werden in einer Scrum-Kultur ausgeführt und die Arbeit ist agil. Sie werden in der Regel zu zweit oder allein durchgeführt. Sobald die Umsetzung einer Aufgabe abgeschlossen ist, präsentiere ich (oder wir, wenn die Aufgabe zu zweit bearbeitet wurde) die Lösung dem Team, das den Kunden vertritt, und wenn die Funktionalität genehmigt wird, gilt das Ticket als abgeschlossen und ich kann ein anderes Ticket nehmen und daran arbeiten. Es ist zu beachten, dass jede Aufgabe eine Bearbeitungszeit hat, die von allen Entwicklern des Teams, dem ich angehöre, zugewiesen wird."
+        },
+        "TAGS": {
+          "COMMUNICATION":"Kommunikation mit dem Kunden",
+          "AGILE": "Agile",
+          "SCRUM": "SCRUM",
+          "TEAM": "Teamarbeit",
+          "MEETING": "Meeting",
+          "PAIR_PROGRAMMING": "Paar-Programmierung",
+          "DAILY": "Täglich",
+          "KANBAN": "Kanban-Board",
+          "PART_TIME": "Teilzeitarbeit"
+        }
+      },
+      "HIQS": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2022-04-01 - 2022-08-31",
+        "ABOUT": {
+          "CONTENT_ONE": "Als Werkstudent bei Hiqs konnte ich dort nicht nur meine ",
+          "CONTENT_TWO": "Bachelorarbeit",
+          "CONTENT_THREE": " machen, sondern auch viel lernen.",
+          "CONTENT_FOUR": "Wir hatten verschiedene Aufgaben, aber es ging immer mehr um",
+          "CONTENT_FIVE": "programmieren und dokumentieren",
+          "CONTENT_SIX": "Ich musste meine entwickelte Lösung immer auf",
+          "CONTENT_SEVEN": "dokumentieren und meinem Teamleiter Feedback geben.",
+          "CONTENT_EIGHT": "Zu dieser Zeit war ich an zwei Projekten beteiligt. Das eine war eher eine ",
+          "CONTENT_NINE": "basierte, und das andere war eine Angular-Anwendung",
+          "CONTENT_TEN": "Das Blockchain-Projekt war eine Folge meiner Bachelorarbeit, in der ich eine Lösung zur Überprüfung der qualitativen Eigenschaften von Lebensmitteln entwickelt habe.",
+          "CONTENT_ELEVEN": "Das Angular-Projekt basierte auf Angular und Nodejs. Mit Hilfe von WebSocket erstellten wir eine Api, die auf Ereignisse in einem Lagerhaus hörte. Diese Ereignisse konnten mit der Angular App verfolgt werden, um einen Überblick über die Menge der Waren im Lagerhaus zu erhalten. Auf diese Weise könnte man wissen, ob man neue Waren bestellen sollte oder ob noch welche übrig sind, usw"
+        }
+      },
+      "HTW": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "2017-04-01 - 2022-03-30",
+        "DEGREE_PROGRAMME": "Studiengang: ",
+        "ABOUT": {
+          "CONTENT_ONE": "Als Student der Computer Engineering waren die Schwerpunkte meines Studiums",
+          "CONTENT_TWO": "Informatik, Hardware der Computertechnik, Netzwerke, computergesteuerte Geräte und Anlagen, Software und Hardwaresysteme, Embedded Systems",
+          "CONTENT_THREE": "Ich lernte, Mikrocontroller wie den",
+          "CONTENT_FOUR": "STM32 und Raspberry Pi.",
+          "CONTENT_FIVE": "zu programmieren. Wir hatten ständig Gruppenprojekte wie die Erstellung einer Musikdatenbank mit",
+          "CONTENT_SIX": " Mysql Workbench",
+          "CONTENT_SEVEN": ", die Entwicklung einer Plattform zur Information von Verkehrsteilnehmern über Straßenbauarbeiten und die Verwendung eines Lidar-Sensors mit einem Rasberry Pi zur Erkennung von Objekten. Ein besonderer Schwerpunkt lag auf Programmiersprachen wie ",
+          "CONTENT_EIGHT":"c++, c und java."
+        }
+      },
+      "WEBINSTORE": {
+        "POSITION": "Poste: ",
+        "DURATION_": "Periode: ",
+        "DURATION": "01.04.2019 - 31.12.2021",
+        "ABOUT": {
+          "CONTENT_ONE": "IT-Verwaltung, Netzwerk und Betriebssystem installieren",
+          "CONTENT_TWO": "Die Personalisierung und Reparatur von Software und Computerhardware ",
+          "CONTENT_THREE": "Vorbereitung aller Arten von Hardware für die Überholung und die Instandsetzung.",
+          "CONTENT_FOUR": "Vorbereitung aller Arten von Computerhardware für die Nutzer entsprechend den Anforderungen der Unternehmen"
+        }
+      }
+    },
+    "TECHNOLOGIES": {
+      "JAVA": {
+        "SPRING": "Spring Boot",
+        "QUARKUS": "Quarkus"
+      },
+      "ANGULAR": "Angular",
+      "SAP": "SAP",
+      "CLOUD": {
+        "GCLOUD": "Google Cloud"
+      },
+      "DB": {
+        "MYSQL": "Mysqsl",
+        "POSTGRES": "Postgres SQL"
+      },
+      "TEST": {
+        "TYPES": {
+          "UNIT_TEST": "Uni Test",
+          "INTEGRATION_TEST": "Uni Test"
+        },
+        "CYPRESS": "Cypress",
+        "JUNIT": "JUNIT",
+        "JEST": "Jest",
+        "KARMA": "KARMA"
+      },
+      "DOCKER": "Docker",
+      "JIRA": "Jira",
+      "CONFLUENCE": "CONFLUENCE",
+      "KANBAN": "Kanban-Board "
+    },
+    "SECTOR": {
+      "BACKEND": "Backend",
+      "FRONTEND": "Frontend",
+      "FULLSTACK": "Fullstack"
+    }
+  },
+  "UTILS": {
+    "AND": "und",
+    "OR": "oder"
+  },
+
   "COMING_SOON": "Demnächst ..."
 }
