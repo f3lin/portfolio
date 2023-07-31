@@ -32,7 +32,7 @@
 
 .computer-content p {
   position: absolute;
-  top:65px;
+  top: 65px;
   margin: 50px;
   font-family: "Code", "Source Code Pro", monospace;
   font-size: 1vw;
@@ -51,7 +51,7 @@
 
   .computer-content p {
     position: absolute;
-    top:60px;
+    top: 60px;
     font-size: 2vw;
     line-height: 1.5;
     margin: 1px;
@@ -59,11 +59,10 @@
 
 }
 
-/*1668*/
 @media screen and (max-width: 1340px) {
   .computer-content p {
     position: absolute;
-    top:-5px;
+    top: -5px;
     font-size: 2vw;
     line-height: 1.5;
     margin: 10px;
@@ -71,22 +70,19 @@
 
 }
 
-/*1668*/
 @media screen and (max-width: 768px) {
-
   .container-image img {
     max-width: 70%;
     max-height: 70%;
   }
+
   .svg-container {
     height: 35vh;
   }
-  /*.computer-content{*/
-  /*  position: absolute;*/
-  /*}*/
+
   .computer-content p {
     position: absolute;
-    top:20px;
+    top: 20px;
     font-size: 5vw;
     line-height: 1.5;
     margin: 50px;
