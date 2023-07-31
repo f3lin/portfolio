@@ -34,7 +34,7 @@
   position: absolute;
   top:65px;
   margin: 50px;
-  font-family: "Fira Code", serif;
+  font-family: "Code", "Source Code Pro", monospace;
   font-size: 1vw;
   line-height: 1.5;
   display: -webkit-box;
