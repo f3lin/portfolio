@@ -1,0 +1,38 @@
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22vh;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.centered-image img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.form-container {
+  max-width: 60%;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .centered-image img {
+    max-width: 50%;
+  }
+
+  .image-container {
+    flex-direction: column;
+  }
+}

@@ -14,6 +14,7 @@ import {CompetencesComponent} from './portfolio/experience/competences/competenc
 import {StarsSvgComponent} from './portfolio/experience/competences/stars-svg/stars-svg.component';
 import {ExperienceComponent} from "./portfolio/experience/experience.component";
 import {EnterprisesComponent} from "./portfolio/experience/enterprises/enterprises.component";
+import {NgOptimizedImage} from "@angular/common";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -31,18 +32,19 @@ export function HttpLoaderFactory(http: HttpClient) {
     CompetencesComponent,
     StarsSvgComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        }),
+        NgOptimizedImage
+    ],
   providers: [TranslationService],
   bootstrap: [AppComponent]
 })
