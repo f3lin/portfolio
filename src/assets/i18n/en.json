@@ -10,6 +10,14 @@
       "LANGUAGE": "Language"
     }
   },
+  "ABOUT_ME": {
+    "ABOUT_ONE": "I've always been interested in IT tools, which has led me to work in many different areas. These include embedded systems, back-end development, front-end development and blockchain. ",
+    "ABOUT_TWO": "As digitalisation is a constantly evolving process, it's not always easy to keep up to date, but I'm always ready to learn new things and above all to improve my current knowledge.",
+    "ABOUT_THREE": "My goal is to become a fullstack developer and to get there, I work every day that God allows me to do so.",
+    "ABOUT_FOUR": "I haven't always released my projects to the public, but that's something that's changing. The proof is that I've created this portfolio. I hope to be able to continue along this path, but by collaborating with a company, I can make better use of my knowledge and experience and learn from those of my colleagues.",
+    "ABOUT_FIVE": "Personally, I am a hardworking, knowledge thirsty, reliable, communicative, dedicated and multicultural perso",
+    "ABOUT_SIX": "Currently, I am involved in technologies such as: IoT, NFT, Cloud, Big Data."
+  },
   "HOME": {
     "GREETING_ONE": "Hi ",
     "GREETING_TWO": " Team!",

@@ -10,6 +10,14 @@
       "LANGUAGE": "Langue"
     }
   },
+  "ABOUT_ME": {
+    "ABOUT_ONE": "J'ai toujours été intéressé par les outils informatiques, ce qui m'a amené à travailler dans de nombreux domaines de ceux-ci. Je peux citer les systèmes embarqués, le développement back-end, le développement frontend et la blockchain.",
+    "ABOUT_TWO": "La digitalisation étant un processus en constante évolution, il n'est pas toujours facile de se tenir au courant, mais je suis toujours prêt à apprendre de nouvelles choses et surtout à améliorer mes connaissances actuelles.",
+    "ABOUT_THREE": "Mon objectif est de devenir développeur fullstack et pour y parvenir, je travaille chaque jour que Dieu me permet de le faire.",
+    "ABOUT_FOUR": "Je n'ai pas toujours publié mes projets au public, mais c'est quelque chose qui est en train de changer. La preuve est que j'ai créé ce portfolio. J'espère pouvoir continuer sur cette voie, mais en collaborant avec une entreprise, je peux mieux mettre à profit mes connaissances et mon expérience et apprendre de celles de mes collègues.",
+    "ABOUT_FIVE": "Personnellement, je suis une personne travailleuse, avide de connaissances, fiable, communicative, engagée et multiculturelle.",
+    "ABOUT_SIX": "Actuellement, je m'intéresse aux technologies telles que : IoT, NFT, Cloud, Big Data."
+  },
   "HOME": {
     "GREETING_ONE": "Bonjour l'équipe ",
     "GREETING_TWO": "!",

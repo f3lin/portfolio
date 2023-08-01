@@ -1,0 +1,64 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  background-color: black; /* Couleur d'arrière-plan noire */
+  z-index: -1;
+}
+
+.column {
+  height: 100%;
+}
+
+.journal-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.journal-text {
+  text-align: justify;
+  padding: 0 1rem;
+  font-family: "Code", "Source Code Pro", monospace;
+  color: burlywood;
+  max-width: 100%; /* Le texte ne dépassera pas la largeur de la colonne */
+}
+
+/* Styles responsives */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .journal-text {
+    padding: 0 1rem;
+    max-width: 100%; /* Le texte ne dépassera pas la largeur de la colonne */
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* Styles responsives */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
