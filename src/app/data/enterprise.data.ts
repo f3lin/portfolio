@@ -6,5 +6,6 @@ export interface Enterprise {
 
 export const enterprise : Enterprise [] = [
   {uuid: '1', name: "Adesso"},
-  {uuid: '2', name: "Hiqs"}
+  {uuid: '2', name: "Hiqs"},
+  {uuid: '3', name: "Hochschulstart"},
 ]
