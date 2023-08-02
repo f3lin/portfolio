@@ -31,13 +31,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
-    if (localStorage.getItem('routeSource')) {
-      const uuid = localStorage.getItem('routeSource');
-      const enterprise_ = enterprise.find(x => x.uuid === uuid);
-      enterprise_ ? this.computerText.next(enterprise_.name) : this.computerText.next('');
-    }
-
+    this.setComputerText();
     // Mettre en place le mouvement répété du clavier
     this.moveKeyboard();
 
@@ -74,5 +68,13 @@ export class HomeComponent implements OnInit {
 
     // Appeler la fonction à nouveau après un court délai pour créer un mouvement continu
     setTimeout(() => this.moveKeyboard(), 50);
+  }
+
+  setComputerText () {
+    if (localStorage.getItem('routeSource')) {
+      const uuid = localStorage.getItem('routeSource');
+      const enterprise_ = enterprise.find(x => x.uuid === uuid);
+      enterprise_ ? this.computerText.next(enterprise_.name) : this.computerText.next('');
+    }
   }
 }
