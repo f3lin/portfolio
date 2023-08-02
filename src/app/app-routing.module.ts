@@ -7,9 +7,11 @@ import {ContactComponent} from "./portfolio/contact/contact.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home/:id', component: HomeComponent }, //TODO: exploiter cette route
   { path: 'about', component: AboutComponent },
   { path: 'experience', component: ExperienceComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

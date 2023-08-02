@@ -22,7 +22,7 @@
       <div class="computer-content" xmlns="http://www.w3.org/1999/xhtml">
         <!-- Exemple de texte pour l'animation (avec classes d'animation) -->
         <p *ngIf="isActive" >
-          {{('HOME.GREETING_ONE' | translate) + computerText }}{{('HOME.GREETING_TWO' | translate)}}
+          {{('HOME.GREETING_ONE' | translate) + (computerText | async) }}{{('HOME.GREETING_TWO' | translate)}}<br>
           {{('HOME.GREETING_THREE' | translate)}}
           {{('HOME.GREETING_FOUR' | translate)}}
           {{('HOME.GREETING_FIVE' | translate)}}

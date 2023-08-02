@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslationService} from "../../services/translation.service";
+import {ActivatedRoute, Router} from "@angular/router";
+import {BehaviorSubject} from "rxjs";
+import {environment} from "../../../environments/environment";
 
 @Component({
   selector: 'app-home',
@@ -7,8 +10,10 @@ import {TranslationService} from "../../services/translation.service";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  enterprise: { uuid: string; name: string; }[] = environment.enterprise;
   // computerText = 'computerText computerText computerText';
-  computerText = 'computer Co';
+  computerText = new BehaviorSubject<string>('');
 
   isActive = true;
 
@@ -21,11 +26,29 @@ export class HomeComponent implements OnInit {
   moveStep = 5; // Pas de déplacement horizontal
   moveDirection = 1; // Direction initiale du mouvement (1 pour droite, -1 pour gauche)
 
-  constructor(private translationService: TranslationService) { }
+  constructor(private translationService: TranslationService,
+              private route: ActivatedRoute,
+              private router: Router) {
+  }
 
   ngOnInit(): void {
+
+    if (localStorage.getItem('routeSource')) {
+      const uuid = localStorage.getItem('routeSource');
+      const enterprise = this.enterprise.find(x => x.uuid === uuid);
+      enterprise ? this.computerText.next(enterprise.name) : this.computerText.next('');
+    }
+
     // Mettre en place le mouvement répété du clavier
     this.moveKeyboard();
+
+    this.route.paramMap.subscribe(params => {
+      if (params.get('id')) {
+        localStorage.setItem('routeSource', params.get('id')!);
+        this.router.navigateByUrl('');
+      }
+    });
+
   }
 
   changeLanguage(language: string) {
