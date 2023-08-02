@@ -10,6 +10,7 @@
       <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('os')" >Operating system</button>
       <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('ide')" >IDEs</button>
       <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('tools')" >Tools</button>
+      <button class="button is-info is-inverted has-text-dark m-2" (click)="setCompetenceData('certifications')" >Certifications</button>
     </ul>
   </div>
 </div>
@@ -94,6 +95,15 @@
       <td class="is-justify-content-flex-end">
         <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>
       </td>
+      </tbody>
+    </table>
+
+    <table class="table is-striped is-narrow is-fullwidth" *ngIf="dataType==='certifications'">
+      <tbody *ngFor="let item of competenceData_?.data?.tools; let i = index">
+      <td>{{'COMING_SOON' | translate}}</td>
+<!--      <td class="is-justify-content-flex-end">-->
+<!--        <app-stars-svg [starLitOrSwitchedOff]="setStarsOptions(item.level)"></app-stars-svg>-->
+<!--      </td>-->
       </tbody>
     </table>
   </div>
