@@ -1,24 +1,24 @@
 <div class="container is-three-fifths is-offset-one-fifth">
   <article class="message is-info has-background-grey-lighter m-6 p-0">
     <div class="message-body has-text-grey-dark p-4">
-      <p class="header-zero has-text-centered ">{{'EXPERIENCE.HEADERS.HEADER_ZERO' | translate}}</p>
-      {{'EXPERIENCE.HEADERS.HEADER_ONE' | translate}}  <strong>{{'EXPERIENCE.HEADERS.HEADER_TWO_B' | translate}} </strong>
-      {{'EXPERIENCE.HEADERS.HEADER_THREE' | translate}} <strong>{{'EXPERIENCE.TITLE_B.BRANCH' | translate}}</strong>{{'EXPERIENCE.HEADERS.HEADER_FOUR' | translate}}
-      {{'EXPERIENCE.ENTERPRISE.PLACE' | translate}} {{'EXPERIENCE.HEADERS.HEADER_FIVE' | translate}}<strong>{{'EXPERIENCE.TITLE_B.STUDENT_EMPLOYEE_B' | translate}}</strong>
-      {{'EXPERIENCE.HEADERS.HEADER_SIX' | translate}} <em>{{'EXPERIENCE.ENTERPRISE.WEBINSTORE' | translate}}</em>{{'EXPERIENCE.HEADERS.HEADER_SEVEN' | translate}}<em>{{'EXPERIENCE.ENTERPRISE.HIQS' | translate}}</em>
-      {{'EXPERIENCE.HEADERS.HEADER_EIGHT' | translate}} <strong>{{'EXPERIENCE.TITLE_B.BACHELOR_DEGREE_B' | translate}}</strong> {{'EXPERIENCE.HEADERS.HEADER_NINE_B' | translate}}
-      {{'EXPERIENCE.ENTERPRISE.HTW' | translate}} {{'EXPERIENCE.HEADERS.HEADER_TEN' | translate}} <strong>{{'EXPERIENCE.HEADERS.HEADER_ELEVEN' | translate}}</strong>
-      {{'EXPERIENCE.HEADERS.HEADER_TWELVE' | translate}} <em>{{'EXPERIENCE.ENTERPRISE.ADESSO' | translate}}</em> {{'EXPERIENCE.HEADERS.HEADER_THIRTEEN' | translate}}
-       <strong>{{'EXPERIENCE.TITLE_B.SOFTWARE_DEVELOPER_B' | translate}}</strong> {{'EXPERIENCE.HEADERS.HEADER_FOURTEEN' | translate}}
-      {{'EXPERIENCE.HEADERS.HEADER_FIFTEEN' | translate}}
+      <p class="header-zero has-text-centered title is-4">{{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_ZERO' | translate}}</p>
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_ONE' | translate}}  <strong>{{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_TWO_B' | translate}} </strong>
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_THREE' | translate}} <strong>{{'EXPERIENCE_ENTERPRISES.TITLE_B.BRANCH' | translate}}</strong>{{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_FOUR' | translate}}
+      {{'EXPERIENCE_ENTERPRISES.ENTERPRISE.PLACE' | translate}} {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_FIVE' | translate}}<strong>{{'EXPERIENCE_ENTERPRISES.TITLE_B.STUDENT_EMPLOYEE_B' | translate}}</strong>
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_SIX' | translate}} <em>{{'EXPERIENCE_ENTERPRISES.ENTERPRISE.WEBINSTORE' | translate}}</em>{{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_SEVEN' | translate}}<em>{{'EXPERIENCE_ENTERPRISES.ENTERPRISE.HIQS' | translate}}</em>
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_EIGHT' | translate}} <strong>{{'EXPERIENCE_ENTERPRISES.TITLE_B.BACHELOR_DEGREE_B' | translate}}</strong> {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_NINE_B' | translate}}
+      {{'EXPERIENCE_ENTERPRISES.ENTERPRISE.HTW' | translate}} {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_TEN' | translate}} <strong>{{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_ELEVEN' | translate}}</strong>
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_TWELVE' | translate}} <em>{{'EXPERIENCE_ENTERPRISES.ENTERPRISE.ADESSO' | translate}}</em> {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_THIRTEEN' | translate}}
+       <strong>{{'EXPERIENCE_ENTERPRISES.TITLE_B.SOFTWARE_DEVELOPER_B' | translate}}</strong> {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_FOURTEEN' | translate}}
+      {{'EXPERIENCE_ENTERPRISES.HEADERS.HEADER_FIFTEEN' | translate}}
     </div>
   </article>
 </div>
 <div class="columns is-mobile is-centered">
     <div class="tabs is-centered">
       <ul>
-        <button class="button is-primary is-inverted has-text-dark m-2" [ngClass]="{'is-static': isExperiencesStatic}" (click)="changeViewToExperiences()">Experiences</button>
-        <button class="button is-primary is-inverted has-text-dark m-2" [ngClass]="{'is-static': isCompetencesStatic}" (click)="changeViewToCompetences()">Competences</button>
+        <button class="button is-primary is-inverted has-text-dark m-2" [ngClass]="{'is-static': isExperiencesStatic}" (click)="changeViewToExperiences()">{{'EXPERIENCE_ENTERPRISES.EXPERIENCES' | translate}}</button>
+        <button class="button is-primary is-inverted has-text-dark m-2" [ngClass]="{'is-static': isCompetencesStatic}" (click)="changeViewToCompetences()">{{'EXPERIENCE_COMPETENCES.HEADER' | translate}}</button>
       </ul>
     </div>
 </div>
