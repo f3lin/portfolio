@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TranslationService} from "../../services/translation.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {BehaviorSubject} from "rxjs";
-import {environment} from "../../../environments/environment";
+import {enterprise} from "../../data/enterprise.data";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +11,6 @@ import {environment} from "../../../environments/environment";
 })
 export class HomeComponent implements OnInit {
 
-  enterprise: { uuid: string; name: string; }[] = environment.enterprise;
   // computerText = 'computerText computerText computerText';
   computerText = new BehaviorSubject<string>('');
 
@@ -35,8 +34,8 @@ export class HomeComponent implements OnInit {
 
     if (localStorage.getItem('routeSource')) {
       const uuid = localStorage.getItem('routeSource');
-      const enterprise = this.enterprise.find(x => x.uuid === uuid);
-      enterprise ? this.computerText.next(enterprise.name) : this.computerText.next('');
+      const enterprise_ = enterprise.find(x => x.uuid === uuid);
+      enterprise_ ? this.computerText.next(enterprise_.name) : this.computerText.next('');
     }
 
     // Mettre en place le mouvement répété du clavier
