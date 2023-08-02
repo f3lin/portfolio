@@ -23,13 +23,13 @@ export const MyData: Competences = {
   id: 1,
   data: {
     language: [
-      {id:1, name:"C/C++",level:3},{id:2, name:"Java",level:4},{id:3, name:"Javascript",level:4},{id:4, name:"Python",level:3},
-      {id:5, name:"Ruby",level:3},{id:5, name:"SQL",level:4},{id:6, name:"Typescript",level:4},{id:7, name:"Solidity",level:4},
-      {id:8, name:"Shell",level:4},{id:9, name:"VHDL",level:2},
+      {id:1, name:"C/C++",level:3},{id:2, name:"Java",level:4},{id:3, name:"Javascript",level:4},{id:4, name:"Python",level:2},
+      {id:5, name:"Ruby",level:3},{id:6, name:"Shell",level:2},{id:7, name:"SQL",level:4},{id:8, name:"Solidity",level:3},
+      {id:9, name:"Typescript",level:4},{id:10, name:"VHDL",level:2},
     ],
     framework: [
       {id:1, name:"Angular",level:4},{id:2, name:"Qt",level:2},{id:3, name:"Quarkus",level:3},{id:4, name:"Node js",level:3},
-      {id:5, name:"React",level:2}, {id:6, name:"Ruy on Rails",level:3},{id:7, name:"Springboot",level:4}, {id:8, name:"Vue Js",level:1},
+      {id:5, name:"React",level:2}, {id:6, name:"Ruy on Rails",level:3},{id:7, name:"Spring Boot",level:4}, {id:8, name:"Vue Js",level:1},
       {id:9, name:".NET",level:2}
     ],
     cloud: [
@@ -41,7 +41,7 @@ export const MyData: Competences = {
       {id:5, name:"Kubernetes",level:3}, {id:6, name:"Terraform",level:3}
     ],
     database: [
-      {id:1, name:"BigQuery",level:3},{id:1, name:"Mysql",level:4},{id:2, name:"Monogo DB",level:3},{id:3, name:"Postgres Sql",level:4},
+      {id:1, name:"BigQuery",level:3},{id:2, name:"Mysql",level:4},{id:3, name:"Monogo DB",level:3},{id:4, name:"Postgres Sql",level:4},
     ],
     testing: [
       {id:1, name:"Cypress",level:3},{id:2, name:"JUnit",level:3},{id:3, name:"Jest",level:3},{id:3, name:"Karma",level:3}
