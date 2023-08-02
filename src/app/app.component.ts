@@ -10,11 +10,10 @@ export class AppComponent {
 
   sidebarVisible = false;
 
+  constructor(private translationService: TranslationService) {
+  }
   toggleSidebar() {
     this.sidebarVisible = !this.sidebarVisible;
-  }
-
-  constructor(private translationService: TranslationService) {
   }
 
   changeLanguage(language: string) {
