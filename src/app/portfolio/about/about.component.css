@@ -6,16 +6,6 @@
   position: relative;
 }
 
-.background {
-  position: absolute;
-  top: 10%;
-  bottom: 10%;
-  left: 0;
-  right: 0;
-  background-color: black; /* Couleur d'arrière-plan noire */
-  z-index: -1;
-}
-
 .column {
   height: 100%;
 }
@@ -36,7 +26,7 @@
 }
 
 /* Styles responsives */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 887px) {
   .container {
     flex-direction: column;
   }
@@ -44,18 +34,6 @@
   .journal-text {
     padding: 0 1rem;
     max-width: 100%; /* Le texte ne dépassera pas la largeur de la colonne */
-  }
-
-  .column {
-    width: 100%;
-  }
-}
-
-
-/* Styles responsives */
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
   }
 
   .column {
