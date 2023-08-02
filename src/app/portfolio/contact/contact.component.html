@@ -1,39 +1,119 @@
-<div class="content has-text-centered"> {{'COMING_SOON' | translate}}</div>
-<div class="container has-text-centered">
-  <div class="centered-image">
-    <img ngSrc="/assets/images/alex-profil.png" alt="Mon image" height="290" width="290">
-  </div>
-</div>
+<div class="contact">
+  <!--  <div class="columns is-mobile is-centered">-->
+  <div class="columns is-mobile is-centered">
+    <div class="column">
+      <div class="box has-text-centered p-5">
+        <div class="message has-text-centered">
+          <p class="notification is-info is-flex ">
+            {{'CONTACT.HEADER' | translate}}
+          </p>
+          <!-- Icône de GitHub -->
+          <a href="https://github.com/nal95?tab=repositories" target="_blank">
+            <img class="icon m-4" src="assets/svg/github-142-svgrepo-com.svg" alt="Github">
+          </a>
 
-<div class="centered-form">
-  <div class="form-container">
-    <form action="#" method="POST">
-      <div class="field">
-        <div class="label">Name</div>
-        <div class="control">
-          <input class="input" type="text">
+          <!-- Icône de LinkedIn -->
+          <a href="https://www.linkedin.com/in/alex-nguepi-17572b233/" target="_blank">
+            <img class="icon m-4" src="assets/svg/linkedin-svgrepo-com.svg" alt="linkedin">
+          </a>
+
+          <!-- Icône de Web Mail -->
+          <a href="mailto:alex.nguepi@web.de">
+            <img class="icon m-4" src="assets/svg/mail-open-info-svgrepo-com.svg" alt="Web Mail">
+          </a>
+          <!-- Icône de Outlook -->
+          <a href="mailto:alexnalji@outlook.com/" target="_blank">
+            <img class="icon m-4" src="assets/svg/outlook-svgrepo-com.svg" alt="Outlook">
+          </a>
+          <p>
+            <i class="material-icons">phone</i> +49 17676899736
+            <i class="material-icons">place</i>Berlin
+          </p>
+          <div class="contact-form p-5 mr-5 ">
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label for="name" class="label">{{'CONTACT.FORM.FROM' | translate}}</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="{{'COMING_SOON' | translate}}" id="name">
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="email" placeholder="{{'COMING_SOON' | translate}}">
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label"></div>
+              <div class="field-body">
+                <div class="field is-expanded">
+                  <div class="field has-addons">
+                    <p class="control">
+                      <a class="button is-static">
+                        +49
+                      </a>
+                    </p>
+                    <p class="control is-expanded">
+                      <input class="input" type="tel" placeholder="{{'COMING_SOON' | translate}}">
+                    </p>
+                  </div>
+                  <p class="help">{{'CONTACT.FORM.PHONE_ALERT' | translate}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label for="subject" class="label">{{'CONTACT.FORM.SUBJECT' | translate}}</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <input class="input" type="text" placeholder="{{'COMING_SOON' | translate}}" id="subject">
+                  </div>
+                  <p class="help">
+                    {{'CONTACT.FORM.SUBJECT_ALERT' | translate}}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label for="corpus" class="label">{{'CONTACT.FORM.CORPUS' | translate}}</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <textarea class="textarea" placeholder="{{'COMING_SOON' | translate}}" id="corpus"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label">
+                <!-- Left empty for spacing -->
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <button class="button is-primary is-static">
+                      {{'CONTACT.FORM.SUBMIT' | translate}}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="field">
-        <div class="label">Email</div>
-        <div class="control">
-          <input class="input" type="email">
-        </div>
-      </div>
-
-      <div class="field">
-        <div class="label">Message</div>
-        <div class="control">
-          <textarea class="textarea"></textarea>
-        </div>
-      </div>
-
-      <div class="field is-grouped is-grouped-centered">
-        <div class="control">
-          <button class="button is-primary" type="submit">Envoyer</button>
-        </div>
-      </div>
-    </form>
+    </div>
   </div>
 </div>
