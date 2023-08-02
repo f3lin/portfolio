@@ -10,6 +10,17 @@
       "LANGUAGE": "Language"
     }
   },
+  "CONTACT": {
+    "HEADER": "I'm not available here at the moment, but you can leave me a message via my different networks",
+    "FORM": {
+      "FROM": "From",
+      "SUBJECT": "Subject",
+      "CORPUS" : "Corpus",
+      "PHONE_ALERT": "Do not enter the first zero",
+      "SUBJECT_ALERT": "This field is required",
+      "SUBMIT": "Send message"
+    }
+  },
   "ABOUT_ME": {
     "ABOUT_ONE": "I've always been interested in IT tools, which has led me to work in many different areas. These include embedded systems, back-end development, front-end development and blockchain. ",
     "ABOUT_TWO": "As digitalisation is a constantly evolving process, it's not always easy to keep up to date, but I'm always ready to learn new things and above all to improve my current knowledge.",
@@ -26,9 +37,8 @@
     "GREETING_FIVE": "I hope I have the skills you are looking for,",
     "GREETING_SIX": "and if not I'm always willing to learn new technologies."
   },
-  "EXPERIENCE": {
-    "ENTERPRISES": "Enterprises",
-    "COMPETENCES": "Competences",
+  "EXPERIENCE_ENTERPRISES": {
+    "EXPERIENCES": "Experiences",
     "ENTERPRISE": {
       "WEBINSTORE": "Webinstore AG",
       "HIQS": "Hiqs GmbH",
@@ -66,6 +76,7 @@
         "POSITION": "Position: ",
         "DURATION_": "Duration: ",
         "DURATION": "2022-01-09 - until now",
+        "HEADER": "As a junior software developer at Adesso, I have the following tasks:",
         "TASKS": {
           "TASKS_ONE": "Analyse the ticket's problem using the code already available",
           "TASKS_TWO": "Implement the new feature(s), ensuring that they do not alter the functionality already present on the platform. This must comply with the ticket acceptance criteria.",
@@ -75,9 +86,9 @@
         "ABOUT": {
           "CONTENT_ONE": "The application is a management application used in the",
           "CONTENT_TWO_B": "music sector",
-          "CONTENT_FOUR": "It is essentially based on",
-          "CONTENT_FIVE": "but a number of other technologies are also involved, including",
-          "CONTENT_SIX": "The tasks here are carried out in a Scrum culture and the work is Agile. They are generally handled in pairs or singles. Once the implementation of a task is complete I (or we if the task was handled in pair) present the solution to the team representing the customer and if the functionality is approved the ticket is considered complete and I can take another ticket and work on it. It should be noted that each task has a processing time which is allocated to it by all the developers in the team I'm a member of."
+          "CONTENT_THREE": "It is essentially based on",
+          "CONTENT_FOUR": "but a number of other technologies are also involved, including",
+          "CONTENT_FIVE": "The tasks here are carried out in a Scrum culture and the work is Agile. They are generally handled in pairs or singles. Once the implementation of a task is complete I (or we if the task was handled in pair) present the solution to the team representing the customer and if the functionality is approved the ticket is considered complete and I can take another ticket and work on it. It should be noted that each task has a processing time which is allocated to it by all the developers in the team I'm a member of."
         },
         "TAGS": {
           "COMMUNICATION":"Customer communication",
@@ -171,6 +182,9 @@
       "FRONTEND": "Frontend",
       "FULLSTACK": "Fullstack"
     }
+  },
+  "EXPERIENCE_COMPETENCES": {
+    "HEADER": "Competences"
   },
   "UTILS": {
     "AND": "and",

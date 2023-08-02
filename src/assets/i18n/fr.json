@@ -10,6 +10,17 @@
       "LANGUAGE": "Langue"
     }
   },
+  "CONTACT": {
+    "HEADER": "Je ne suis pas disponible ici pour le moment, mais vous pouvez me laisser un message via mes différents réseaux",
+    "FORM": {
+      "FROM": "De",
+      "SUBJECT": "Sujet",
+      "CORPUS" : "Corps",
+      "PHONE_ALERT": "Ne pas saisir le premier zéro",
+      "SUBJECT_ALERT": "Ce champ est obligatoire",
+      "SUBMIT": "Envoyer le message"
+    }
+  },
   "ABOUT_ME": {
     "ABOUT_ONE": "J'ai toujours été intéressé par les outils informatiques, ce qui m'a amené à travailler dans de nombreux domaines de ceux-ci. Je peux citer les systèmes embarqués, le développement back-end, le développement frontend et la blockchain.",
     "ABOUT_TWO": "La digitalisation étant un processus en constante évolution, il n'est pas toujours facile de se tenir au courant, mais je suis toujours prêt à apprendre de nouvelles choses et surtout à améliorer mes connaissances actuelles.",
@@ -26,9 +37,8 @@
     "GREETING_FIVE": "J'espère avoir les compétences que vous recherchez,",
     "GREETING_SIX": "et si ce n'est pas le cas, je suis toujours prêt à apprendre de nouvelles technologies."
   },
-  "EXPERIENCE": {
-    "ENTERPRISES": "Entreprises",
-    "COMPETENCES": "Compétences",
+  "EXPERIENCE_ENTERPRISES": {
+    "EXPERIENCES": "Expériences",
     "ENTERPRISE": {
       "WEBINSTORE": "Webinstore AG",
       "HIQS": "Hiqs GmbH",
@@ -66,17 +76,19 @@
         "POSITION": "Poste: ",
         "DURATION_": "Periode: ",
         "DURATION": "01.09.2022 - jusqu'à présent",
+        "HEADER": "En tant que développeur logiciel junior chez Adesso, j'ai les tâches suivantes :",
         "TASKS": {
           "TASKS_ONE": "Analyser le problème du ticket en utilisant le code déjà disponible",
           "TASKS_TWO": "Implémenter la ou les nouvelles fonctionnalités, en veillant à ce qu'elles ne modifient pas les fonctionnalités déjà présentes sur la plateforme. Cela doit être conforme aux critères d'acceptation du ticket.",
-          "TASKS_THREE": "Faire le QA du(des) ticket(s) "
+          "TASKS_THREE": "Faire le QA du(des) ticket(s) ",
+          "TASKS_FOUR": "Tests d'intégration et d'unité avec :"
         },
         "ABOUT": {
           "CONTENT_ONE": "L'application est une application de gestion utilisée dans le",
           "CONTENT_TWO_B": "music sector",
-          "CONTENT_FOUR": "secteur de la musique",
-          "CONTENT_FIVE": "mais un certain nombre d'autres technologies sont également impliquées, notamment",
-          "CONTENT_SIX": "Les tâches sont réalisées dans une culture Scrum et le travail est Agile. Elles sont généralement traitées en binôme ou en solo. Une fois la mise en œuvre d'une tâche terminée, je (ou nous si la tâche a été traitée en binôme) présente la solution à l'équipe représentant le client et si la fonctionnalité est approuvée, le ticket est considéré comme complet et je peux prendre un autre ticket et travailler dessus. Il convient de noter que chaque tâche a un temps de traitement qui lui est attribué par tous les développeurs de l'équipe dans laquelle je suis membre."
+          "CONTENT_THREE": "secteur de la musique",
+          "CONTENT_FOUR": "mais un certain nombre d'autres technologies sont également impliquées, notamment",
+          "CONTENT_FIVE": "Les tâches sont réalisées dans une culture Scrum et le travail est Agile. Elles sont généralement traitées en binôme ou en solo. Une fois la mise en œuvre d'une tâche terminée, je (ou nous si la tâche a été traitée en binôme) présente la solution à l'équipe représentant le client et si la fonctionnalité est approuvée, le ticket est considéré comme complet et je peux prendre un autre ticket et travailler dessus. Il convient de noter que chaque tâche a un temps de traitement qui lui est attribué par tous les développeurs de l'équipe dans laquelle je suis membre."
         },
         "TAGS": {
           "COMMUNICATION":"Communication avec les clients",
@@ -111,10 +123,10 @@
       "HTW": {
         "POSITION": "Poste: ",
         "DURATION_": "Periode: ",
-        "DURATION": "2017-04-01 - 2022-03-30",
+        "DURATION": "01.04.2017 - 01.03.2022",
         "DEGREE_PROGRAMME": "Filière d'étude: ",
         "ABOUT": {
-          "CONTENT_ONE": "En tant qu'étudiant en génie informatique, les points focales de mes études etaient :",
+          "CONTENT_ONE": "En tant qu'étudiant en génie informatique, les points focales de mes études etaient:",
           "CONTENT_TWO": "Informatique, matériel informatique, réseaux, appareils et installations commandés par ordinateur, Systèmes logiciels et matériels, systèmes embarqués",
           "CONTENT_THREE": "J'ai appris à programmer des microcontrôleurs comme ",
           "CONTENT_FOUR": "le STM32 et le Raspberry Pi.",
@@ -170,6 +182,9 @@
       "FRONTEND": "Frontend",
       "FULLSTACK": "Fullstack"
     }
+  },
+  "EXPERIENCE_COMPETENCES": {
+    "HEADER": "Compétences"
   },
   "UTILS": {
     "AND": "et",

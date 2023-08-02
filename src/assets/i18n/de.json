@@ -10,6 +10,17 @@
       "LANGUAGE": "Sprache"
     }
   },
+  "CONTACT": {
+    "HEADER": "Ich bin hier im Moment nicht erreichbar, aber Sie können mir über meine verschiedenen Netzwerke eine Nachricht hinterlassen",
+    "FORM": {
+      "FROM": "Von",
+      "SUBJECT": "Thema",
+      "CORPUS" : "Korpus",
+      "PHONE_ALERT": "Geben Sie nicht die erste Null ein",
+      "SUBJECT_ALERT": "Dieses Feld ist erforderlich",
+      "SUBMIT": "Nachricht senden"
+    }
+  },
   "ABOUT_ME": {
     "ABOUT_ONE": "Ich habe mich schon immer für IT-Tools interessiert, was dazu geführt hat, dass ich in vielen Bereichen davon gearbeitet habe. Ich kann hier eingebettete Systeme, Backend-Entwicklung, Frontend-Entwicklung und Blockchain nennen. ",
     "ABOUT_TWO": "Da die Digitalisierung ein sich ständig weiterentwickelnder Prozess ist, ist es nicht immer einfach, auf dem Laufenden zu bleiben, aber ich bin immer bereit, neue Dinge zu lernen und vor allem mein derzeitiges Wissen zu verbessern.",
@@ -26,9 +37,8 @@
     "GREETING_FIVE": "Ich hoffe, ich habe die Fähigkeiten, die Sie suchen",
     "GREETING_SIX": "und wenn nicht, bin ich immer bereit, neue Technologien zu lernen."
   },
-  "EXPERIENCE": {
-    "ENTERPRISES": "Unternehmen",
-    "COMPETENCES": "Kompetenzen",
+  "EXPERIENCE_ENTERPRISES": {
+    "EXPERIENCES": "Erfahrungen",
     "ENTERPRISE": {
       "ENTERPRISE_ONE": "Webinstore AG",
       "ENTERPRISE_TWO": "Hiqs GmbH",
@@ -66,17 +76,19 @@
         "POSITION": "Stelle: ",
         "DURATION_": "Laufzeit: ",
         "DURATION": "01.09.2022 - bis jetzt",
+        "HEADER": "Als Junior Softwareentwickler bei Adesso habe ich folgende Aufgaben:",
         "TASKS": {
           "TASKS_ONE": "Analyse the ticket's problem using the code already available",
           "TASKS_TWO": "Implement the new feature(s), ensuring that they do not alter the functionality already present on the platform. This must comply with the ticket acceptance criteria.",
-          "TASKS_THREE": "Make Ticket(s) QA"
+          "TASKS_THREE": "Make Ticket(s) QA",
+          "TASKS_FOUR": "Integration und Unit Test mit:"
         },
         "ABOUT": {
           "CONTENT_ONE": "Bei der Anwendung handelt es sich um eine Verwaltungsanwendung für den",
           "CONTENT_TWO_B": "Musiksektor",
-          "CONTENT_FOUR": "Im Wesentlichen basiert sie auf",
-          "CONTENT_FIVE": "aber auch eine Reihe anderer Technologien sind beteiligt, darunter",
-          "CONTENT_SIX": "Die Aufgaben werden in einer Scrum-Kultur ausgeführt und die Arbeit ist agil. Sie werden in der Regel zu zweit oder allein durchgeführt. Sobald die Umsetzung einer Aufgabe abgeschlossen ist, präsentiere ich (oder wir, wenn die Aufgabe zu zweit bearbeitet wurde) die Lösung dem Team, das den Kunden vertritt, und wenn die Funktionalität genehmigt wird, gilt das Ticket als abgeschlossen und ich kann ein anderes Ticket nehmen und daran arbeiten. Es ist zu beachten, dass jede Aufgabe eine Bearbeitungszeit hat, die von allen Entwicklern des Teams, dem ich angehöre, zugewiesen wird."
+          "CONTENT_THREE": "Im Wesentlichen basiert sie auf",
+          "CONTENT_FOUR": "aber auch eine Reihe anderer Technologien sind beteiligt, darunter",
+          "CONTENT_FIVE": "Die Aufgaben werden in einer Scrum-Kultur ausgeführt und die Arbeit ist agil. Sie werden in der Regel zu zweit oder allein durchgeführt. Sobald die Umsetzung einer Aufgabe abgeschlossen ist, präsentiere ich (oder wir, wenn die Aufgabe zu zweit bearbeitet wurde) die Lösung dem Team, das den Kunden vertritt, und wenn die Funktionalität genehmigt wird, gilt das Ticket als abgeschlossen und ich kann ein anderes Ticket nehmen und daran arbeiten. Es ist zu beachten, dass jede Aufgabe eine Bearbeitungszeit hat, die von allen Entwicklern des Teams, dem ich angehöre, zugewiesen wird."
         },
         "TAGS": {
           "COMMUNICATION":"Kommunikation mit dem Kunden",
@@ -93,7 +105,7 @@
       "HIQS": {
         "POSITION": "Poste: ",
         "DURATION_": "Periode: ",
-        "DURATION": "2022-04-01 - 2022-08-31",
+        "DURATION": "01.03.2022 - 31.08.2022",
         "ABOUT": {
           "CONTENT_ONE": "Als Werkstudent bei Hiqs konnte ich dort nicht nur meine ",
           "CONTENT_TWO": "Bachelorarbeit",
@@ -111,7 +123,7 @@
       "HTW": {
         "POSITION": "Poste: ",
         "DURATION_": "Periode: ",
-        "DURATION": "2017-04-01 - 2022-03-30",
+        "DURATION": "04.01.2017 - 01.03.2022",
         "DEGREE_PROGRAMME": "Studiengang: ",
         "ABOUT": {
           "CONTENT_ONE": "Als Student der Computer Engineering waren die Schwerpunkte meines Studiums",
@@ -171,10 +183,12 @@
       "FULLSTACK": "Fullstack"
     }
   },
+  "EXPERIENCE_COMPETENCES": {
+    "HEADER": "Kompetenzen"
+  },
   "UTILS": {
     "AND": "und",
     "OR": "oder"
   },
-
   "COMING_SOON": "Demnächst ..."
 }
