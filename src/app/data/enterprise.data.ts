@@ -25,11 +25,13 @@ export const enterprise : Enterprise [] = [
   {uuid: '18', name:"RODIAS"},
   {uuid: '19', name:"BOSCH"},
   {uuid: '20', name:"Hypoport Karriere"},
+  {uuid: '21', name:"ROSSMANN"},
+  {uuid: '22', name:"AVM"},
+  {uuid: '23', name:"FDM"},
+  {uuid: '24', name:"Deutsche Bahn"},
+  {uuid: '25', name:"Materna"},
+  {uuid: '26', name:"Riverty Group GmbH"},
 ]
-
-
-
-
 
 
 
