@@ -24,8 +24,8 @@ export const MyData: Competences = {
   data: {
     language: [
       {id:1, name:"Java", level:4},{id:2, name:"JavaScript", level:4},{id:3, name:"TypeScript", level:4},{id:4, name:"SQL", level:4},
-      {id:5, name:"C/C++", level:3},{id:6, name:"Ruby", level:3},{id:7, name:"Solidity", level:3},{id:8, name:"Python", level:2},
-      {id:9, name:"Shell", level:2},{id:10, name:"VHDL", level:2},
+      {id:5, name:"HTML", level:4},{id:6, name:"Ruby", level:3},{id:7, name:"Solidity", level:3},{id:8, name:"C/C++ ", level:3},
+      {id:9, name:"CSS", level:3},{id:10, name:"VHDL", level:2},{id:11, name:"Shell", level:2},{id:11, name:"Python", level:2}
     ],
     framework: [
       {id:1, name:"Angular", level:4},{id:2, name:"Spring Boot", level:4},{id:3, name:"Quarkus", level:3},{id:4, name:"Node js", level:3},
@@ -53,8 +53,9 @@ export const MyData: Competences = {
       {id:1, name:"Intellij", level:5},{id:2, name:"VS Code", level:5},{id:3, name:"Visual Studio", level:4},{id:4, name:"DB Visualizer", level:2}
     ],
     tools: [
-      {id:1, name:"Microsoft Office", level:4},{id:2, name:"Ethereum", level:3},{id:3, name:"Metamask", level:3},{id:4, name:"Git", level:4},{id:5, name:"Polygon", level:3},
-      {id:6, name:"Raspberry pi", level:3},{id:7, name:"Docker Hub", level:3}
+      {id:1, name:"Microsoft Office", level:4},{id:2, name:"Ethereum", level:3},{id:3, name:"Metamask", level:3},{id:4, name:"Git", level:4},
+      {id:5, name:"Polygon", level:3},{id:6, name:"Raspberry pi", level:3},{id:7, name:"Docker Hub", level:3},{id:8, name:"SonarQube", level:2},
+      {id:9, name:"OpenApi", level:2},{id:10, name:"BPMN", level:2}
     ],
     certifications:[]
   }
