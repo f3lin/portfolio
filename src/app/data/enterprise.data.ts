@@ -35,6 +35,16 @@ export const enterprise : Enterprise [] = [
   {uuid: '28', name:"Convidius"},
   {uuid: '29', name:"mVISE"},
   {uuid: '30', name:"interactive tools"},
+  {uuid: '31', name:"msg systems ag"},
+  {uuid: '32', name:"Sopra Steria"},
+  {uuid: '33', name:"DFV Deutsche Familienversicherung AG"},
+  {uuid: '34', name:"BARMER"},
+  {uuid: '35', name:"Hella Gutmann"},
+  {uuid: '36', name:"Bundesdruckerei-Gruppe"},
+  {uuid: '37', name:"Windhoff Group"},
+  {uuid: '38', name:"Canpool"},
+  {uuid: '39', name:"Scandio GmbH"},
+  {uuid: '40', name:"Computer Futures"},
 ]
 
 
