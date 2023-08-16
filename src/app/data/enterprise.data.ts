@@ -47,6 +47,7 @@ export const enterprise : Enterprise [] = [
   {uuid: '40', name:"Computer Futures"},
   {uuid: '41', name:"Ratbacher GmbH"},
   {uuid: '42', name:"SYZYGY Techsolutions"},
+  {uuid: '43', name:"Leticia Atonlieu"},
 ]
 
 
