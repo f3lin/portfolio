@@ -43,38 +43,83 @@ jobs:
       - name: Run tests
         run: npm run test
 
-  build-and-deploy:
-    needs: test-and-lint
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20.9.0'
-
-      - name: Cache Node Modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install Firebase CLI & Angular CLI
-        run: npm install -g @angular/cli firebase-tools
-
+      - name: Checkout Repo
+        uses: actions/checkout@master
       - name: Install Dependencies
         run: npm install
-
-      - name: Build Portfolio app
-        run: npm run build --prod
-
-      - uses: actions/checkout@v4
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Build
+        run: npm run build-prod
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
         with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_3DBF6 }}
-          projectId: portfolio-3dbf6
+          name: dist
+          path: dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: dist
+          path: dist
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_3DBF6 }}
+
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v3
+#
+#      - name: Setup Node.js
+#        uses: actions/setup-node@v2
+#        with:
+#          node-version: '20.9.0'
+#
+#      - name: Cache Node Modules
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-
+#
+#      - name: Install Firebase CLI & Angular CLI
+#        run: npm install -g @angular/cli firebase-tools
+#
+#      - name: Install Dependencies
+#        run: npm install
+#
+#      - name: Build Portfolio app
+#        run: npm run build --prod
+#
+#      - name: Archive Production Artifact
+#        uses: actions/upload-artifact@master
+#        with:
+#          name: dist
+#          path: dist
+#
+#      - name: Deploy to Firebase
+#        uses: w9jds/firebase-action@master
+#        with:
+#          args: deploy --only hosting
+#        env:
+#          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_3DBF6 }}
+
+#      - uses: actions/checkout@v4
+#      - uses: FirebaseExtended/action-hosting-deploy@v0
+#        with:
+#          repoToken: ${{ secrets.GITHUB_TOKEN }}
+#          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_3DBF6 }}
+#          projectId: portfolio-3dbf6
