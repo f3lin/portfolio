@@ -15,23 +15,14 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+        name: Setup Node.js
         with:
-          node-version: '20'
+          node-version: 18
           cache: 'npm'
-
-      - name: Cache node modules
-        id: cache-nodemodules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache-dependency-path: subdir/package-lock.json
 
       - name: Install Firebase CLI & Angular CLI
         run: npm install -g @angular/cli firebase-tools
@@ -45,32 +36,35 @@ jobs:
       - name: Run tests
         run: npm run test
 
+#      - name: Cache node modules
+#        id: cache-nodemodules
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-
+
+
+
   build-and-deploy:
     needs: test-and-lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+        name: Setup Node.js
         with:
-          node-version: '20'
+          node-version: 18
           cache: 'npm'
-
-      - name: Cache Node Modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache-dependency-path: subdir/package-lock.json
 
       - name: Install Firebase CLI & Angular CLI
         run: npm install -g @angular/cli firebase-tools
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
 
       - name: Build Portfolio app
