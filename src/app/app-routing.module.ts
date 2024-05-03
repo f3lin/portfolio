@@ -9,8 +9,8 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home/:id', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'experience', component: ExperienceComponent},
-  {path: 'contact', component: ContactComponent},
+  // {path: 'experience', component: ExperienceComponent},
+  // {path: 'contact', component: ContactComponent},
   {path: '**', redirectTo: ''}
 ];
 
