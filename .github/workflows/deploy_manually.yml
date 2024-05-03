@@ -1,87 +1,87 @@
-# This is a basic workflow that is manually triggered
-
-name: Deploy Manually
-
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
-on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      environment:
-        type: choice
-        required: true
-        description: Make a choice
-        options:
-          - prod
-          - dev
-
-jobs:
-  test-and-lint:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Cache node modules
-        id: cache-nodemodules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install Firebase CLI & Angular CLI
-        run: npm install -g @angular/cli firebase-tools
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Lint
-        run: npm run lint
-
-      - name: Run tests
-        run: npm run test
-
-  build-and-deploy:
-    needs: test-and-lint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Cache Node Modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install Firebase CLI & Angular CLI
-        run: npm install -g @angular/cli firebase-tools
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Portfolio app
-        run: npm run build --${{inputs.environment}}
-
-      - name: Deploy to Firebase
-        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
+## This is a basic workflow that is manually triggered
+#
+#name: Deploy Manually
+#
+## Controls when the action will run. Workflow runs when manually triggered using the UI
+## or API.
+#on:
+#  workflow_dispatch:
+#    # Inputs the workflow accepts.
+#    inputs:
+#      environment:
+#        type: choice
+#        required: true
+#        description: Make a choice
+#        options:
+#          - prod
+#          - dev
+#
+#jobs:
+#  test-and-lint:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      - name: Setup Node.js
+#      - uses: actions/checkout@v4
+#      - uses: actions/setup-node@v4
+#        with:
+#          node-version: '20'
+#          cache: 'npm'
+#
+#      - name: Cache node modules
+#        id: cache-nodemodules
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-
+#
+#      - name: Install Firebase CLI & Angular CLI
+#        run: npm install -g @angular/cli firebase-tools
+#
+#      - name: Install dependencies
+#        run: npm install
+#
+#      - name: Run Lint
+#        run: npm run lint
+#
+#      - name: Run tests
+#        run: npm run test
+#
+#  build-and-deploy:
+#    needs: test-and-lint
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v3
+#
+#      - name: Setup Node.js
+#      - uses: actions/checkout@v4
+#      - uses: actions/setup-node@v4
+#        with:
+#          node-version: '20'
+#          cache: 'npm'
+#
+#      - name: Cache Node Modules
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-
+#
+#      - name: Install Firebase CLI & Angular CLI
+#        run: npm install -g @angular/cli firebase-tools
+#
+#      - name: Install Dependencies
+#        run: npm install
+#
+#      - name: Build Portfolio app
+#        run: npm run build --${{inputs.environment}}
+#
+#      - name: Deploy to Firebase
+#        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
