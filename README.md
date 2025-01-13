@@ -3,7 +3,7 @@ This is my portfolio in development. The aim is to make it interact with a Sprin
 
 The current version gives visitors an idea of who I am and what I know to date. But development continues, so stay tuned ...
 
-> 👉 [My Portfolio](https://portfolio-3dbf6.web.app/) is currently deployed on [Firebase](https://firebase.google.com/)
+> 👉 [My Portfolio](https://portfolio-3dbf6.firebaseapp.com) is currently deployed on [Firebase](https://firebase.google.com/)
 
 > **CI/CD** is implemented using **Github Action**
 
